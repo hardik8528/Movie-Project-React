@@ -1,0 +1,69 @@
+html {
+  font-size: 62.5%;
+}
+
+.movie-details .backdrop-image img {
+  width: 88%;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.movie-details .detail-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 2rem auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.movie-details .detail-container .detail-poster img {
+  border-radius: 1rem;
+  margin-top: -40%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.movie-details .detail-container .detail-details {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.movie-details .detail-container .detail-details h1 {
+  font-size: 3.5rem;
+}
+
+.movie-details .detail-container .detail-details p {
+  font-size: 1.8rem;
+  text-align: left;
+  padding-left: 3rem;
+}
+
+.movie-details .detail-container .detail-details ul {
+  text-align: left;
+  font-size: 2.2rem;
+  padding-left: 6rem;
+}
+
+@media screen and (max-width: 927px) {
+  .movie-details .backdrop-image {
+    display: none;
+  }
+  .movie-details .detail-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .movie-details .detail-container .detail-poster img {
+    margin-top: 5%;
+  }
+}
+/*# sourceMappingURL=MovieDetails.css.map */

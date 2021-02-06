@@ -1,0 +1,12 @@
+html{
+    font-size: 62.5%;
+}
+
+.movie-list{
+    ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
